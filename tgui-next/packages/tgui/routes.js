@@ -40,7 +40,6 @@ import { DnaVault } from './interfaces/DnaVault';
 import { EightBallVote } from './interfaces/EightBallVote';
 import { EmergencyShuttleConsole } from './interfaces/EmergencyShuttleConsole';
 import { EngravedMessage } from './interfaces/EngravedMessage';
-import { Gateway } from './interfaces/Gateway';
 import { Gps } from './interfaces/Gps';
 import { GravityGenerator } from './interfaces/GravityGenerator';
 import { GulagTeleporterConsole } from './interfaces/GulagTeleporterConsole';
@@ -280,10 +279,6 @@ const ROUTES = {
   },
   engraved_message: {
     component: () => EngravedMessage,
-    scrollable: false,
-  },
-  gateway: {
-    component: () => Gateway,
     scrollable: false,
   },
   gps: {

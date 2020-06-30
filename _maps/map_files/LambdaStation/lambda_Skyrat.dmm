@@ -33578,6 +33578,9 @@
 /turf/open/floor/plating,
 /area/maintenance/central/secondary)
 "bjz" = (
+/obj/machinery/gateway{
+	dir = 9
+	},
 /obj/effect/turf_decal/bot_white/right,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -33592,6 +33595,9 @@
 /turf/open/floor/plasteel/dark,
 /area/gateway)
 "bjA" = (
+/obj/machinery/gateway{
+	dir = 1
+	},
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -33606,6 +33612,9 @@
 /turf/open/floor/plasteel/dark,
 /area/gateway)
 "bjB" = (
+/obj/machinery/gateway{
+	dir = 5
+	},
 /obj/effect/turf_decal/bot_white/left,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -33978,6 +33987,23 @@
 "bkj" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/central/secondary)
+"bkk" = (
+/obj/machinery/gateway{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/gateway)
 "bkl" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -33989,7 +34015,23 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/machinery/gateway/centerstation,
+/turf/open/floor/plasteel/dark,
+/area/gateway)
+"bkm" = (
+/obj/machinery/gateway{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/gateway)
 "bkn" = (
@@ -34259,6 +34301,55 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/security/nuke_storage)
+"bkL" = (
+/obj/machinery/gateway{
+	dir = 10
+	},
+/obj/effect/turf_decal/bot_white/left,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/gateway)
+"bkM" = (
+/obj/machinery/gateway,
+/obj/effect/turf_decal/bot_white,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/gateway)
+"bkN" = (
+/obj/machinery/gateway{
+	dir = 6
+	},
+/obj/effect/turf_decal/bot_white/right,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/gateway)
 "bkO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -35077,10 +35168,15 @@
 /turf/open/floor/plasteel,
 /area/gateway)
 "bmn" = (
+/obj/structure/table,
 /obj/effect/turf_decal/bot{
 	dir = 1
 	},
-/obj/machinery/computer/gateway_control,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high{
+	charge = 100;
+	maxcharge = 15000
+	},
 /turf/open/floor/plasteel,
 /area/gateway)
 "bmo" = (
@@ -117868,8 +117964,8 @@ bhp
 bcw
 cIB
 bjz
-bjA
-bjB
+bkk
+bkL
 cIH
 biQ
 bmk
@@ -118126,7 +118222,7 @@ bcw
 cIC
 bjA
 bkl
-bjA
+bkM
 cIH
 blP
 bml
@@ -118382,8 +118478,8 @@ bhr
 bcw
 cIB
 bjB
-bjA
-bjz
+bkm
+bkN
 cIH
 biQ
 bmm

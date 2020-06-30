@@ -192,6 +192,45 @@
 	},
 /area/awaymission/moonoutpost19/syndicate)
 "aG" = (
+/obj/machinery/gateway{
+	dir = 9
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/moonoutpost19/syndicate)
+"aH" = (
+/obj/machinery/gateway{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/moonoutpost19/syndicate)
+"aI" = (
+/obj/machinery/gateway{
+	dir = 5
+	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -252,9 +291,45 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/moonoutpost19/syndicate)
+"aO" = (
+/obj/machinery/gateway{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/moonoutpost19/syndicate)
 "aP" = (
-/obj/machinery/gateway/away{
+/obj/machinery/gateway/centeraway{
 	calibrated = 0
+	},
+/turf/open/floor/plasteel/dark{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/moonoutpost19/syndicate)
+"aQ" = (
+/obj/machinery/gateway{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark{
 	heat_capacity = 1e+006
@@ -301,7 +376,26 @@
 	heat_capacity = 1e+006
 	},
 /area/awaymission/moonoutpost19/syndicate)
+"aW" = (
+/obj/machinery/gateway{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	heat_capacity = 1e+006
+	},
+/area/awaymission/moonoutpost19/syndicate)
 "aX" = (
+/obj/machinery/gateway,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
@@ -320,6 +414,9 @@
 	},
 /area/awaymission/moonoutpost19/syndicate)
 "aY" = (
+/obj/machinery/gateway{
+	dir = 6
+	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -41836,8 +41933,8 @@ ac
 at
 az
 aG
-aG
-aG
+aO
+aW
 aV
 br
 bB
@@ -42092,7 +42189,7 @@ ac
 ac
 at
 aA
-aG
+aH
 aP
 aX
 bg
@@ -42349,8 +42446,8 @@ ac
 ac
 at
 aB
-aG
-aG
+aI
+aQ
 aY
 bh
 bt
